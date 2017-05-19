@@ -1,0 +1,10 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	x := map[string]int{"Eddie": 24, "Rob": 25, "Johnson": 26}
+	fmt.Println(x)
+}
