@@ -1,0 +1,12 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	x := map[string]int{"Eddie": 24, "Rob": 25, "John": 26}
+	for k, _ := range x {
+		fmt.Println(k, "-", x)
+	}
+}
